@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Reddit /r/Brasil",
+  "description": "Essa extensão verifica atualizações constantemente no /r/brasil, e as exibe na forma de notificações.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "background",
+    "notifications",
+    "https://www.reddit.com/*"
+  ]
+}
